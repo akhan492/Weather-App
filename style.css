@@ -5,7 +5,7 @@
 }
 body{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
      background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
      background-position:center;
      background-size: cover;
@@ -14,7 +14,7 @@ body{
 }
 
 #box{
-    height: 75vh;
+    height:100%;
     overflow: hidden;
     
 }
@@ -24,5 +24,6 @@ height: fit-content;
 @media screen and (max-width: 600px) {
     body {
      background-size: contain;
+     height: 100%;
     }
   }
