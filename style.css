@@ -5,10 +5,11 @@
 }
 body{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
      background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
      background-position:center;
-     background-size: contain;
+     background-size: cover;
+     background-repeat: no-repeat;
 
 }
 
@@ -20,3 +21,8 @@ body{
 .weatherShow{
 height: fit-content;
 }
+@media screen and (max-width: 600px) {
+    body {
+     background-size: contain;
+    }
+  }
