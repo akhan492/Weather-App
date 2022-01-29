@@ -55,7 +55,7 @@ setInterval(timeShow, 1000);
     document.body.style.backgroundImage =
       "url('https://images.pexels.com/photos/2338113/pexels-photo-2338113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')";
   } else if (Hour > 19 || Hour  < 6 ) {
-    document.body.style.background =
-      "url('https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') no-repeat center";
+    document.body.style.backgroundImage =
+      "url('https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')";
   }
 })();
