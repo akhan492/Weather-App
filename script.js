@@ -3,6 +3,7 @@ const Showdata = document.querySelector(".weatherShow");
 const button = document.querySelector(".Submit");
 var city = document.querySelector("#city");
 const err = document.querySelector(".error");
+const box = document.querySelectorAll(".text-center")
 function weatherDeatial(data) {
   const { ...all } = data;
   console.log(all);
@@ -51,7 +52,12 @@ setInterval(timeShow, 1000);
   if (Hour > 6 && Hour <= 17) {
     document.body.style.backgroundImage =
       "url('https://images.pexels.com/photos/3367619/pexels-photo-3367619.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')";
-  } else if (Hour > 17 && Hour <= 19) {
+        console.log(box);
+        box.forEach((b)=>{
+          b.classList.add("text-dark");
+          b.classList.remove("text-light")
+        })
+    } else if (Hour > 17 && Hour <= 19) {
     document.body.style.backgroundImage =
       "url('https://images.pexels.com/photos/2338113/pexels-photo-2338113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')";
   } else if (Hour > 19 || Hour  < 6 ) {
