@@ -57,6 +57,7 @@ setInterval(timeShow, 1000);
           b.classList.add("text-dark");
           b.classList.remove("text-light")
         })
+        Showdata.classList.add("text-white");
     } else if (Hour > 17 && Hour <= 19) {
     document.body.style.backgroundImage =
       "url('https://images.pexels.com/photos/2338113/pexels-photo-2338113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')";
