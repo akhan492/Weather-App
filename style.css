@@ -75,9 +75,6 @@ button:hover::before{
     transform: scale(1);
     /* transform: rotate(0); */
 }
-input:focus{
-    background: #000;
-}
 .weatherShow{
 height: fit-content;
 }
